@@ -4,4 +4,5 @@ import tailwindcss from "@tailwindcss/vite"
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: '/livre-emergence-des-dao/',   // ⬅important pour GitHub Pages
 })
