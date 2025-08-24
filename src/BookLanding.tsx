@@ -290,7 +290,7 @@ export default function BookLanding() {
             <details className="border rounded-xl p-4">
               <summary className="cursor-pointer font-medium">Comment me tenir informé des mises à jour ?</summary>
               <p className="mt-2 text-sm text-slate-700">
-                Laissez votre email en bas de page et nous vous écrirons lors des prochaines mises à jour.
+                Laissez votre demande par mail juien.lallemand92@gmail.com et nous vous écrirons lors des prochaines mises à jour.
               </p>
             </details>
           </div>
