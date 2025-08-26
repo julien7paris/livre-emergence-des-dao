@@ -1,6 +1,6 @@
 // src/BookLanding.tsx
 
-const AMAZON_URL = "https://www.amazon.fr/dp/ASIN_A_REMPLACER"
+const AMAZON_URL = "https://www.amazon.fr/dp/B0FNRQXDBF"
 // place l'image dans public/photo-couverture.jpg (nom sans espace)
 const COVER_URL = "/photo-couverture.jpg"
 
