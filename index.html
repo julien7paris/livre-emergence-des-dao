@@ -5,18 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- ✅ TITRE PRINCIPAL -->
     <title>L’Émergence des DAO — Guide Web3 (blockchain, smart contracts, MetaMask, wallets)</title>
     <meta name="title" content="L’Émergence des DAO — Guide Web3 (blockchain, smart contracts, MetaMask, wallets)" />
     <meta
       name="description"
-      content="Comprendre, créer et gouverner une DAO : guide pratique Web3 — blockchain, smart contracts, MetaMask, wallets, tokenomics, gouvernance on-chain, outils (Snapshot, Aragon), exemples de DAO (MakerDAO, Uniswap, ENS, Gitcoin, Aave)."
+      content="L’Émergence des DAO : comprendre, créer et gouverner une DAO — guide pratique Web3 (blockchain, smart contracts, MetaMask, wallets, tokenomics, gouvernance on-chain, outils comme Snapshot et Aragon, exemples de DAO : MakerDAO, Uniswap, ENS, Gitcoin, Aave)."
     />
     <meta
       name="keywords"
       content="DAO, blockchain, Web3, smart contracts, MetaMask, wallet, tokenomics, gouvernance on-chain, Snapshot, Aragon, MakerDAO, Uniswap, ENS, Gitcoin, Aave, DeFi, livre DAO"
     />
     <meta name="robots" content="index,follow,max-image-preview:large" />
-    <link rel="canonical" href="https://livredao.example.com/" />
+
+    <!-- Canonical : si pas de domaine custom, laisse l’URL Vercel -->
+    <link rel="canonical" href="https://ton-projet.vercel.app/" />
 
     <!-- ✅ Google Search Console -->
     <meta name="google-site-verification" content="j1Ht9GEC3DL0HZyiG4MCg6v5vC3OOwvJgQFW2xZB3Jo" />
@@ -24,13 +27,14 @@
     <!-- Open Graph -->
     <meta property="og:locale" content="fr_FR" />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="L’Émergence des DAO" />
     <meta property="og:title" content="L’Émergence des DAO — Guide Web3" />
     <meta
       property="og:description"
       content="Le guide clair et actionnable pour comprendre, créer et gouverner une DAO (blockchain, smart contracts, MetaMask, wallets, tokenomics, outils, cas d’usage)."
     />
-    <meta property="og:url" content="https://livredao.example.com/" />
-    <meta property="og:image" content="https://livredao.example.com/photo-couverture.jpg" />
+    <meta property="og:url" content="https://ton-projet.vercel.app/" />
+    <meta property="og:image" content="https://ton-projet.vercel.app/photo-couverture.jpg" />
     <meta property="og:image:alt" content="Couverture du livre L’Émergence des DAO" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
@@ -42,11 +46,24 @@
       name="twitter:description"
       content="Comprendre, créer et gouverner une DAO : blockchain, smart contracts, MetaMask, wallets, tokenomics, gouvernance on-chain."
     />
-    <meta name="twitter:image" content="https://livredao.example.com/photo-couverture.jpg" />
+    <meta name="twitter:image" content="https://ton-projet.vercel.app/photo-couverture.jpg" />
 
     <!-- App / theming -->
     <meta name="theme-color" content="#0f172a" />
+    <meta name="application-name" content="L’Émergence des DAO" />
+    <meta name="apple-mobile-web-app-title" content="L’Émergence des DAO" />
     <link rel="icon" type="image/png" href="/favicon.png" />
+
+    <!-- JSON-LD : WebSite (signale le vrai nom du site à Google) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "L’Émergence des DAO",
+        "alternateName": "Guide Web3 sur les DAO",
+        "url": "https://ton-projet.vercel.app/"
+      }
+    </script>
 
     <!-- JSON-LD : Book -->
     <script type="application/ld+json">
@@ -55,18 +72,18 @@
         "@type": "Book",
         "name": "L’Émergence des DAO",
         "author": { "@type": "Person", "name": "Julien Lallemand" },
-        "image": "https://livredao.example.com/photo-couverture.jpg",
+        "image": "https://ton-projet.vercel.app/photo-couverture.jpg",
         "inLanguage": "fr",
         "genre": ["Technologie", "Économie", "Web3"],
         "description": "Comprendre, créer et gouverner une DAO : guide pratique (blockchain, smart contracts, MetaMask, wallets, tokenomics, gouvernance on-chain, outils Snapshot/Aragon, cas d’usage).",
-        "url": "https://www.amazon.fr/dp/ASIN_A_REMPLACER",
+        "url": "https://www.amazon.fr/dp/B0FNRQXDBF",
         "sameAs": ["https://metamask.io/", "https://snapshot.org/", "https://aragon.org/"],
         "workExample": {
           "@type": "Book",
           "bookFormat": "EBook",
           "potentialAction": {
             "@type": "BuyAction",
-            "target": "https://www.amazon.fr/dp/ASIN_A_REMPLACER"
+            "target": "https://www.amazon.fr/dp/B0FNRQXDBF"
           }
         }
       }
