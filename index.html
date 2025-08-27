@@ -54,22 +54,24 @@
     <meta name="apple-mobile-web-app-title" content="L’Émergence des DAO" />
     <link rel="icon" type="image/png" href="/favicon.png" />
 
-    <!-- JSON-LD : WebSite (signale le vrai nom du site à Google) -->
+    <!-- JSON-LD : WebSite (avec @id) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "WebSite",
+        "@id": "https://ton-projet.vercel.app/#website",
         "name": "L’Émergence des DAO",
         "alternateName": "Guide Web3 sur les DAO",
         "url": "https://ton-projet.vercel.app/"
       }
     </script>
 
-    <!-- JSON-LD : Book -->
+    <!-- JSON-LD : Book (avec @id) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "Book",
+        "@id": "https://ton-projet.vercel.app/#book",
         "name": "L’Émergence des DAO",
         "author": { "@type": "Person", "name": "Julien Lallemand" },
         "image": "https://ton-projet.vercel.app/photo-couverture.jpg",
@@ -77,7 +79,6 @@
         "genre": ["Technologie", "Économie", "Web3"],
         "description": "Comprendre, créer et gouverner une DAO : guide pratique (blockchain, smart contracts, MetaMask, wallets, tokenomics, gouvernance on-chain, outils Snapshot/Aragon, cas d’usage).",
         "url": "https://www.amazon.fr/dp/B0FNRQXDBF",
-        "sameAs": ["https://metamask.io/", "https://snapshot.org/", "https://aragon.org/"],
         "workExample": {
           "@type": "Book",
           "bookFormat": "EBook",
@@ -85,18 +86,21 @@
             "@type": "BuyAction",
             "target": "https://www.amazon.fr/dp/B0FNRQXDBF"
           }
-        }
+        },
+        "sameAs": ["https://metamask.io/", "https://snapshot.org/", "https://aragon.org/"]
       }
     </script>
 
-    <!-- JSON-LD : FAQ -->
+    <!-- JSON-LD : FAQPage (UN SEUL bloc, avec @id) -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
         "@type": "FAQPage",
+        "@id": "https://ton-projet.vercel.app/#faq",
         "mainEntity": [
           {
             "@type": "Question",
+            "@id": "https://ton-projet.vercel.app/#faq-q1",
             "name": "Le livre convient-il aux non-techniciens ?",
             "acceptedAnswer": {
               "@type": "Answer",
@@ -105,6 +109,7 @@
           },
           {
             "@type": "Question",
+            "@id": "https://ton-projet.vercel.app/#faq-q2",
             "name": "Version papier ou PDF disponibles ?",
             "acceptedAnswer": {
               "@type": "Answer",
